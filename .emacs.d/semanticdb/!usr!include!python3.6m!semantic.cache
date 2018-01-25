@@ -1,0 +1,1067 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_BYTES_CTYPE_H" variable (:constant-flag t) nil [57 73])
+            ("_Py_bytes_isspace" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [266 283])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [284 299]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [231 300])
+            ("_Py_bytes_isalpha" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [336 353])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [354 369]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [301 370])
+            ("_Py_bytes_isalnum" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [406 423])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [424 439]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [371 440])
+            ("_Py_bytes_isdigit" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [476 493])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [494 509]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [441 510])
+            ("_Py_bytes_islower" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [546 563])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [564 579]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [511 580])
+            ("_Py_bytes_isupper" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [616 633])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [634 649]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [581 650])
+            ("_Py_bytes_istitle" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [686 703])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [704 719]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [651 720])
+            ("_Py_bytes_lower" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [830 843])
+                    ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [844 861])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [862 877]))                  
+                :type "void")
+                nil [802 878])
+            ("_Py_bytes_upper" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [907 920])
+                    ("cptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [921 938])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [939 954]))                  
+                :type "void")
+                nil [879 955])
+            ("_Py_bytes_title" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [984 997])
+                    ("s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [998 1012])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1013 1028]))                  
+                :type "void")
+                nil [956 1029])
+            ("_Py_bytes_capitalize" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1063 1076])
+                    ("s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1077 1091])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1092 1107]))                  
+                :type "void")
+                nil [1030 1108])
+            ("_Py_bytes_swapcase" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1140 1153])
+                    ("s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1154 1168])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1169 1184]))                  
+                :type "void")
+                nil [1109 1185])
+            ("_Py_bytes_find" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1219 1235])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1236 1251])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1252 1267]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1187 1268])
+            ("_Py_bytes_index" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1302 1318])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1319 1334])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1335 1350]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1269 1351])
+            ("_Py_bytes_rfind" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1385 1401])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1402 1417])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1418 1433]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1352 1434])
+            ("_Py_bytes_rindex" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1469 1485])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1486 1501])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1502 1517]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1435 1518])
+            ("_Py_bytes_count" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1552 1568])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1569 1584])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1585 1600]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1519 1601])
+            ("_Py_bytes_contains" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1632 1648])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1649 1664])
+                    ("arg" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1665 1679]))                  
+                :type "int")
+                nil [1602 1680])
+            ("_Py_bytes_startswith" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1719 1735])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1736 1751])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1752 1767]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1681 1768])
+            ("_Py_bytes_endswith" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1805 1821])
+                    ("len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1822 1837])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1838 1853]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1769 1854])
+            ("_Py_bytes_maketrans" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("frm" variable
+                       (:pointer 1
+                        :type ("Py_buffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1930 1945])
+                    ("to" variable
+                       (:pointer 1
+                        :type ("Py_buffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1946 1960]))                  
+                :type ("PyObject" type (:type "class") nil nil))
+                nil [1893 1961])
+            ("_Py_isspace__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [1993 2032])
+            ("_Py_isalpha__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2033 2072])
+            ("_Py_isalnum__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2073 2112])
+            ("_Py_isdigit__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2113 2152])
+            ("_Py_islower__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2153 2192])
+            ("_Py_isupper__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2193 2232])
+            ("_Py_istitle__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2233 2272])
+            ("_Py_lower__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2273 2310])
+            ("_Py_upper__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2311 2348])
+            ("_Py_title__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2349 2386])
+            ("_Py_capitalize__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2387 2429])
+            ("_Py_swapcase__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2430 2470])
+            ("_Py_count__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2471 2508])
+            ("_Py_find__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2509 2545])
+            ("_Py_index__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2546 2583])
+            ("_Py_rfind__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2584 2621])
+            ("_Py_rindex__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2622 2660])
+            ("_Py_startswith__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2661 2703])
+            ("_Py_endswith__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2704 2744])
+            ("_Py_maketrans__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2745 2786])
+            ("_Py_expandtabs__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2787 2829])
+            ("_Py_ljust__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2830 2867])
+            ("_Py_rjust__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2868 2905])
+            ("_Py_center__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2906 2944])
+            ("_Py_zfill__doc__" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "char")
+                nil [2945 2982])
+            ("PyDoc_STRVAR_shared" variable (:constant-flag t) nil [3066 3085]))          
+      :file "bytes_methods.h"
+      :pointmax 3192
+      :fsize 3191
+      :lastmodtime '(23102 43351 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("Py_BYTES_CTYPE_H")
+          ("PyDoc_STRVAR_shared" (spp-arg-list ("name" "str") 3085 . 3095) . 
+              ((CONST "const" 3096 . 3101) (CHAR "char" 3102 . 3106) (symbol "name" 3107 . 3111) (semantic-list "[]" 3111 . 3113) (punctuation "=" 3114 . 3115) (symbol "PyDoc_STR" 3116 . 3125) (semantic-list "(str)" 3125 . 3130)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("BITSTATE" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("bits" variable (:type "int") (reparse-symbol classsubparts) [96 105])
+                          ("pad" variable (:type "int") (reparse-symbol classsubparts) [143 151])
+                          ("fill" variable (:type "int") (reparse-symbol classsubparts) [249 258])
+                          ("sign" variable (:type "int") (reparse-symbol classsubparts) [313 322])
+                          ("lutsize" variable (:type "unsigned long") (reparse-symbol classsubparts) [369 391])
+                          ("lut" variable
+                             (:pointer 1
+                              :type ("FLOAT32" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [396 409])
+                          ("mask" variable (:type "unsigned long") (reparse-symbol classsubparts) [434 453])
+                          ("signmask" variable (:type "unsigned long") (reparse-symbol classsubparts) [458 481])
+                          ("bitbuffer" variable (:type "unsigned long") (reparse-symbol classsubparts) [486 510])
+                          ("bitcount" variable (:type "int") (reparse-symbol classsubparts) [515 528]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14 541]))          
+      :file "Bit.h"
+      :pointmax 542
+      :fsize 541
+      :lastmodtime '(22995 27280 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__QUANTHASH_H__" variable (:constant-flag t) nil [238 253])
+            ("QuantTypes.h" include nil nil [255 278])
+            ("HashTable" type
+               (:typedef ("_HashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [280 316])
+            ("HashKey_t" type
+               (:typedef ("Pixel" type (:type "class") nil nil)
+                :type "typedef")
+                nil [317 341])
+            ("HashVal_t" type
+               (:typedef ("uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [342 369])
+            ("HashFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [400 418])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [418 434]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [379 435])
+            ("HashCmpFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [463 481])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [481 497])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [497 513]))                  
+                :type "int")
+                nil [444 514])
+            ("IteratorFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [544 562])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [562 578])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [578 594])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [594 601]))                  
+                :type "void")
+                nil [523 602])
+            ("IteratorUpdateFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [638 656])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [656 672])
+                    ("" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [672 684])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [684 691]))                  
+                :type "void")
+                nil [611 692])
+            ("KeyDestroyFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [724 742])
+                    ("" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [742 752]))                  
+                :type "void")
+                nil [701 753])
+            ("ValDestroyFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [785 803])
+                    ("" variable (:type ("HashVal_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [803 813]))                  
+                :type "void")
+                nil [762 814])
+            ("ComputeFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [843 861])
+                    ("" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [861 877])
+                    ("" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [877 889]))                  
+                :type "void")
+                nil [823 890])
+            ("CollisionFunc" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [921 939])
+                    ("" variable
+                       (:pointer 1
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [939 951])
+                    ("" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [951 963])
+                    ("" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [963 973])
+                    ("" variable (:type ("HashVal_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [973 983]))                  
+                :type "void")
+                nil [899 984])
+            ("hashtable_new" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("hf" variable (:type ("HashFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1012 1024])
+                    ("cf" variable (:type ("HashCmpFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1024 1039]))                  
+                :type ("HashTable" type (:type "class") nil nil))
+                nil [986 1040])
+            ("hashtable_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1061 1074]))                  
+                :type "void")
+                nil [1041 1075])
+            ("hashtable_foreach" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1099 1112])
+                    ("i" variable (:type ("IteratorFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1112 1127])
+                    ("u" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1127 1135]))                  
+                :type "void")
+                nil [1076 1136])
+            ("hashtable_foreach_update" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1167 1180])
+                    ("i" variable (:type ("IteratorUpdateFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1180 1201])
+                    ("u" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1201 1209]))                  
+                :type "void")
+                nil [1137 1210])
+            ("hashtable_insert" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1232 1245])
+                    ("key" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1245 1259])
+                    ("val" variable (:type ("HashVal_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1259 1273]))                  
+                :type "int")
+                nil [1211 1274])
+            ("hashtable_update" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1296 1309])
+                    ("key" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1309 1323])
+                    ("val" variable (:type ("HashVal_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1323 1337]))                  
+                :type "int")
+                nil [1275 1338])
+            ("hashtable_lookup" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1360 1379])
+                    ("key" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1379 1399])
+                    ("valp" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1399 1415]))                  
+                :type "int")
+                nil [1339 1416])
+            ("hashtable_lookup_or_insert" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1448 1461])
+                    ("key" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1461 1475])
+                    ("valp" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1475 1491])
+                    ("val" variable (:type ("HashVal_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1491 1505]))                  
+                :type "int")
+                nil [1417 1506])
+            ("hashtable_insert_or_update_computed" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1547 1560])
+                    ("key" variable (:type ("HashKey_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1560 1574])
+                    ("newFunc" variable (:type ("ComputeFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1574 1594])
+                    ("existsFunc" variable (:type ("ComputeFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1594 1617]))                  
+                :type "int")
+                nil [1507 1618])
+            ("hashtable_delete" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1640 1653])
+                    ("key" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1653 1673]))                  
+                :type "int")
+                nil [1619 1674])
+            ("hashtable_remove" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1696 1709])
+                    ("key" variable
+                       (:constant-flag t
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1709 1729])
+                    ("keyRet" variable
+                       (:pointer 1
+                        :type ("HashKey_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1729 1747])
+                    ("valRet" variable
+                       (:pointer 1
+                        :type ("HashVal_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1747 1765]))                  
+                :type "int")
+                nil [1675 1766])
+            ("hashtable_set_user_data" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1797 1810])
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1810 1821]))                  
+                :type "void")
+                nil [1767 1822])
+            ("hashtable_get_user_data" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1853 1872]))                  
+                :type "void")
+                nil [1823 1873])
+            ("hashtable_set_key_destroy_func" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1920 1932])
+                    ("d" variable (:type ("KeyDestroyFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1932 1949]))                  
+                :type ("KeyDestroyFunc" type (:type "class") nil nil))
+                nil [1874 1950])
+            ("hashtable_set_value_destroy_func" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1999 2011])
+                    ("d" variable (:type ("ValDestroyFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2011 2028]))                  
+                :type ("ValDestroyFunc" type (:type "class") nil nil))
+                nil [1951 2029])
+            ("hashtable_get_count" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2059 2078]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2030 2079])
+            ("hashtable_rehash" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2102 2115]))                  
+                :type "void")
+                nil [2080 2116])
+            ("hashtable_rehash_compute" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("HashTable" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2147 2160])
+                    ("cf" variable (:type ("CollisionFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2160 2177]))                  
+                :type "void")
+                nil [2117 2178]))          
+      :file "QuantHash.h"
+      :pointmax 2206
+      :fsize 2205
+      :lastmodtime '(22995 27280 0 0)
+      :unmatched-syntax '((TYPEDEF 891 . 898) (TYPEDEF 815 . 822) (TYPEDEF 754 . 761) (TYPEDEF 693 . 700) (TYPEDEF 603 . 610) (TYPEDEF 515 . 522) (TYPEDEF 436 . 443) (TYPEDEF 371 . 378))
+      :lexical-table 
+        '(("__QUANTHASH_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_PYTHON_H" variable (:constant-flag t) nil [29 40])
+            ("patchlevel.h" include nil nil [168 191])
+            ("pyconfig.h" include nil nil [192 213])
+            ("pymacconfig.h" include nil nil [214 238])
+            ("limits.h" include (:system-flag t) nil [240 259])
+            ("stdio.h" include (:system-flag t) nil [563 581])
+            ("string.h" include (:system-flag t) nil [659 678])
+            ("stdlib.h" include (:system-flag t) nil [725 744])
+            ("assert.h" include (:system-flag t) nil [1039 1058])
+            ("pyport.h" include nil nil [1060 1079])
+            ("pymacro.h" include nil nil [1080 1100])
+            ("pyatomic.h" include nil nil [1102 1123])
+            ("pymath.h" include nil nil [1460 1479])
+            ("pytime.h" include nil nil [1480 1499])
+            ("pymem.h" include nil nil [1500 1518])
+            ("object.h" include nil nil [1520 1539])
+            ("objimpl.h" include nil nil [1540 1560])
+            ("typeslots.h" include nil nil [1561 1583])
+            ("pyhash.h" include nil nil [1584 1603])
+            ("pydebug.h" include nil nil [1605 1625])
+            ("bytearrayobject.h" include nil nil [1627 1655])
+            ("bytesobject.h" include nil nil [1656 1680])
+            ("unicodeobject.h" include nil nil [1681 1707])
+            ("longobject.h" include nil nil [1708 1731])
+            ("longintrepr.h" include nil nil [1732 1756])
+            ("boolobject.h" include nil nil [1757 1780])
+            ("floatobject.h" include nil nil [1781 1805])
+            ("complexobject.h" include nil nil [1806 1832])
+            ("rangeobject.h" include nil nil [1833 1857])
+            ("memoryobject.h" include nil nil [1858 1883])
+            ("tupleobject.h" include nil nil [1884 1908])
+            ("listobject.h" include nil nil [1909 1932])
+            ("dictobject.h" include nil nil [1933 1956])
+            ("odictobject.h" include nil nil [1957 1981])
+            ("enumobject.h" include nil nil [1982 2005])
+            ("setobject.h" include nil nil [2006 2028])
+            ("methodobject.h" include nil nil [2029 2054])
+            ("moduleobject.h" include nil nil [2055 2080])
+            ("funcobject.h" include nil nil [2081 2104])
+            ("classobject.h" include nil nil [2105 2129])
+            ("fileobject.h" include nil nil [2130 2153])
+            ("pycapsule.h" include nil nil [2154 2176])
+            ("traceback.h" include nil nil [2177 2199])
+            ("sliceobject.h" include nil nil [2200 2224])
+            ("cellobject.h" include nil nil [2225 2248])
+            ("iterobject.h" include nil nil [2249 2272])
+            ("genobject.h" include nil nil [2273 2295])
+            ("descrobject.h" include nil nil [2296 2320])
+            ("warnings.h" include nil nil [2321 2342])
+            ("weakrefobject.h" include nil nil [2343 2369])
+            ("structseq.h" include nil nil [2370 2392])
+            ("namespaceobject.h" include nil nil [2393 2421])
+            ("codecs.h" include nil nil [2423 2442])
+            ("pyerrors.h" include nil nil [2443 2464])
+            ("pystate.h" include nil nil [2466 2486])
+            ("pyarena.h" include nil nil [2488 2508])
+            ("modsupport.h" include nil nil [2509 2532])
+            ("pythonrun.h" include nil nil [2533 2555])
+            ("pylifecycle.h" include nil nil [2556 2580])
+            ("ceval.h" include nil nil [2581 2599])
+            ("sysmodule.h" include nil nil [2600 2622])
+            ("osmodule.h" include nil nil [2623 2644])
+            ("intrcheck.h" include nil nil [2645 2667])
+            ("import.h" include nil nil [2668 2687])
+            ("abstract.h" include nil nil [2689 2710])
+            ("bltinmodule.h" include nil nil [2711 2735])
+            ("compile.h" include nil nil [2737 2757])
+            ("eval.h" include nil nil [2758 2775])
+            ("pyctype.h" include nil nil [2777 2797])
+            ("pystrtod.h" include nil nil [2798 2819])
+            ("pystrcmp.h" include nil nil [2820 2841])
+            ("dtoa.h" include nil nil [2842 2859])
+            ("fileutils.h" include nil nil [2860 2882])
+            ("pyfpe.h" include nil nil [2883 2901]))          
+      :file "Python.h"
+      :pointmax 2929
+      :fsize 2928
+      :lastmodtime '(23102 43356 0 0)
+      :unmatched-syntax '((string 605 . 650) (symbol 599 . 604) (punctuation 595 . 596) (string 386 . 452) (symbol 380 . 385) (punctuation 379 . 380) (string 286 . 349) (symbol 280 . 285) (punctuation 279 . 280))
+      :lexical-table 
+        '(("Py_PYTHON_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("zlib.h" include nil nil [127 144])
+            ("ZIP_PNG" variable (:constant-flag t) nil [167 174])
+            ("ZIP_PNG_PALETTE" variable (:constant-flag t) nil [224 239])
+            ("ZIP_TIFF_PREDICTOR" variable (:constant-flag t) nil [295 313])
+            ("ZIP_TIFF" variable (:constant-flag t) nil [351 359])
+            ("ZIPSTATE" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("mode" variable (:type "int") (reparse-symbol classsubparts) [463 472])
+                          ("optimize" variable (:type "int") (reparse-symbol classsubparts) [523 536])
+                          ("compress_level" variable (:type "int") (reparse-symbol classsubparts) [613 632])
+                          ("compress_type" variable (:type "int") (reparse-symbol classsubparts) [674 692])
+                          ("dictionary" variable
+                             (:pointer 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [745 762])
+                          ("dictionary_size" variable (:type "int") (reparse-symbol classsubparts) [767 787])
+                          ("z_stream" variable (:type ("z_stream" type (:type "class") nil nil)) (reparse-symbol classsubparts) [845 863])
+                          ("previous" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [899 915])
+                          ("last_output" variable (:type "int") (reparse-symbol classsubparts) [954 970])
+                          ("prior" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1050 1063])
+                          ("up" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1102 1112])
+                          ("average" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1117 1132])
+                          ("paeth" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1137 1150])
+                          ("output" variable
+                             (:pointer 1
+                              :type ("UINT8" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1156 1170])
+                          ("prefix" variable (:type "int") (reparse-symbol classsubparts) [1195 1206])
+                          ("interlaced" variable (:type "int") (reparse-symbol classsubparts) [1260 1275])
+                          ("pass" variable (:type "int") (reparse-symbol classsubparts) [1319 1328]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [395 1392]))          
+      :file "Zip.h"
+      :pointmax 1393
+      :fsize 1392
+      :lastmodtime '(22995 27280 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ZIP_PNG" . ((number "0" 175 . 176)))
+          ("ZIP_TIFF" . ((number "3" 360 . 361)))
+          ("ZIP_PNG_PALETTE" . ((number "1" 240 . 241)))
+          ("ZIP_TIFF_PREDICTOR" . ((number "2" 314 . 315)))
+          )
+))
+  :file "!usr!include!python3.6m!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

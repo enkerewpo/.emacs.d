@@ -1,0 +1,287 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("cstring" include (:system-flag t) nil [19 37])
+            ("algorithm" include (:system-flag t) nil [38 58])
+            ("cctype" include (:system-flag t) nil [59 76])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [77 97])
+            ("read" function
+               (:template 
+                  ( ("_Tp" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("a" variable
+                       (:reference 1
+                        :type ("_Tp" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [133 140])
+                    ("c" variable
+                       (:default-value "0"
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [141 151]))                  )
+                nil [99 269])
+            ("ll" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [271 292])
+            ("N" variable
+               (:constant-flag t
+                :default-value "5e4 + 5"
+                :type "int")
+                nil [293 315])
+            ("A" variable
+               (:dereference 1
+                :type ("data" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [317 358])
+            ("B" variable
+               (:dereference 1
+                :type ("data" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [317 358])
+            ("data" type
+               (:members 
+                  ( ("a" variable (:type "int") (reparse-symbol classsubparts) [332 344])
+                    ("b" variable (:type "int") (reparse-symbol classsubparts) [332 344])
+                    ("c" variable (:type "int") (reparse-symbol classsubparts) [332 344]))                  
+                :type "struct")
+                nil [317 358])
+            ("cmp1" function
+               (:arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("data" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [370 384])
+                    ("y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("data" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [385 399]))                  
+                :type "bool")
+                nil [360 471])
+            ("cmp2" function
+               (:arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("data" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [482 496])
+                    ("y" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("data" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [497 511]))                  
+                :type "bool")
+                nil [472 558])
+            ("lowbit" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [570 576]))                  
+                :type "int")
+                nil [559 597])
+            ("n" variable (:type "int") nil [599 626])
+            ("p" variable
+               (:dereference 1
+                :type "int")
+                nil [599 626])
+            ("f" variable
+               (:dereference 2
+                :type "int")
+                nil [599 626])
+            ("s" variable
+               (:dereference 1
+                :type "double")
+                nil [627 654])
+            ("g" variable
+               (:dereference 2
+                :type "double")
+                nil [627 654])
+            ("add" function
+               (:template 
+                  ( ("_Tp" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("arr" variable
+                       (:dereference 1
+                        :type ("_Tp" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [689 699])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [700 708])
+                    ("val" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [709 717])
+                    ("op" variable (:type "int") (reparse-symbol arg-sub-list) [718 725]))                  )
+                nil [656 852])
+            ("ask" function
+               (:template 
+                  ( ("_Tp" type (:type "class") nil nil))                  
+                :type ("_Tp" type (:type "class") nil nil)
+                :arguments 
+                  ( ("arr" variable
+                       (:dereference 1
+                        :type ("_Tp" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [886 896])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [897 905])
+                    ("op" variable (:type "int") (reparse-symbol arg-sub-list) [906 913]))                  )
+                nil [854 1061])
+            ("solve" function
+               (:arguments 
+                  ( ("l" variable (:type "int") (reparse-symbol arg-sub-list) [1074 1080])
+                    ("r" variable (:type "int") (reparse-symbol arg-sub-list) [1081 1087])
+                    ("op" variable (:type "int") (reparse-symbol arg-sub-list) [1088 1095]))                  
+                :type "void")
+                nil [1063 1956])
+            ("initial" function (:type "void") nil [1958 2245])
+            ("reverse" function (:type "void") nil [2247 2400])
+            ("ans" variable (:type "int") nil [2402 2419])
+            ("tmp1" variable
+               (:dereference 1
+                :type "int")
+                nil [2402 2419])
+            ("tots" variable (:type "double") nil [2420 2449])
+            ("tmp2" variable
+               (:dereference 1
+                :type "double")
+                nil [2420 2449])
+            ("Ans" variable
+               (:dereference 1
+                :type "double")
+                nil [2420 2449])
+            ("procedure" function (:type "void") nil [2451 3324])
+            ("output" function (:type "void") nil [3326 3428])
+            ("main" function (:type "int") nil [3430 3559]))          
+      :file "2244.cpp"
+      :pointmax 3560
+      :fsize 3559
+      :lastmodtime '(23128 32567 771891 163000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("cstring" include (:system-flag t) nil [19 37])
+            ("algorithm" include (:system-flag t) nil [38 58])
+            ("vector" include (:system-flag t) nil [59 76])
+            ("set" include (:system-flag t) nil [77 91])
+            ("map" include (:system-flag t) nil [92 106])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [108 128])
+            ("N" variable
+               (:constant-flag t
+                :default-value "5e4 + 10"
+                :type "int")
+                nil [130 153])
+            ("main" function (:type "int") nil [155 183]))          
+      :file "2244_new.cpp"
+      :pointmax 184
+      :fsize 2875
+      :lastmodtime '(23128 47323 171852 993000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("cstring" include (:system-flag t) nil [19 37])
+            ("algorithm" include (:system-flag t) nil [38 58])
+            ("cctype" include (:system-flag t) nil [59 76])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [77 97])
+            ("read" function
+               (:template 
+                  ( ("_Tp" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("a" variable
+                       (:reference 1
+                        :type ("_Tp" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [133 140])
+                    ("c" variable
+                       (:default-value "0"
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [141 151]))                  )
+                nil [99 174])
+            ("N" variable (:constant-flag t) nil [184 185])
+            ("INF" variable (:constant-flag t) nil [202 205])
+            ("M" variable (:constant-flag t) nil [225 226])
+            ("hd" variable
+               (:dereference 1
+                :type "int")
+                nil [236 288])
+            ("nxt" variable
+               (:dereference 1
+                :type "int")
+                nil [236 288])
+            ("f" variable
+               (:dereference 1
+                :type "int")
+                nil [236 288])
+            ("to" variable
+               (:dereference 1
+                :type "int")
+                nil [236 288])
+            ("tot" variable
+               (:default-value "1"
+                :type "int")
+                nil [236 288])
+            ("S" variable (:type "int") nil [290 299])
+            ("T" variable (:type "int") nil [290 299])
+            ("add" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [310 316])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [317 323])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [324 330]))                  
+                :type "void")
+                nil [301 442])
+            ("dis" variable
+               (:dereference 1
+                :type "int")
+                nil [444 455])
+            ("que" variable
+               (:dereference 1
+                :type "int")
+                nil [456 467])
+            ("check" function (:type "bool") nil [469 769])
+            ("argument" function
+               (:arguments 
+                  ( ("u" variable (:type "int") (reparse-symbol arg-sub-list) [784 790])
+                    ("rem" variable (:type "int") (reparse-symbol arg-sub-list) [791 799]))                  
+                :type "int")
+                nil [771 1091])
+            ("dinic" function (:type "int") nil [1093 1202])
+            ("n" variable (:type "int") nil [1223 1232])
+            ("m" variable (:type "int") nil [1223 1232])
+            ("id" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1241 1247])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [1248 1254]))                  
+                :type "int")
+                nil [1234 1283])
+            ("build" function (:type "void") nil [1285 1692])
+            ("main" function (:type "signed int") nil [1694 1778]))          
+      :file "1001.cpp"
+      :pointmax 1778
+      :fsize 1777
+      :lastmodtime '(23128 56261 609369 332000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("N" . ((number "1000005" 186 . 193)))
+          ("INF" . ((number "0x7f7f7f7f" 206 . 216)))
+          ("M" . ((number "6000005" 227 . 234)))
+          )
+))
+  :file "!home!kvar_ispw17!Documents!BZOJ!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
